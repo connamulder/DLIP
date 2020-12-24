@@ -199,7 +199,7 @@ if __name__ == "__main__":
     num_features = 1
     image_path_list = []
 
-    # 数据集信息
+    # parameters of the plutonic images dataset
     if model_type == 'pre_trained_Xception':
         img_width = 299
         img_height = 299
